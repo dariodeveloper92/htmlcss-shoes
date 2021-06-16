@@ -30,7 +30,19 @@ body {
 }
 /* fine container */
 
+/* nav */
+nav li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
 
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+/* fine nav */
 
 /* box */
 .box {
@@ -56,3 +68,9 @@ body {
     background-image: url(../img/03.png);
 }
 /* fine img */
+
+/* text-green */
+.text-green {
+    color: green;
+}
+/* fine text-green */
