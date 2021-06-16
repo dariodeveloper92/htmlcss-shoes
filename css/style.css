@@ -6,7 +6,7 @@
 
 /* common */
 body {
-    font-family: rubik momo;
+    font-family: 'Rubik Mono One', sans-serif;
     color: yellow;
 }
 /* fine common */
@@ -30,11 +30,16 @@ body {
 }
 /* fine container */
 
+
+
 /* box */
 .box {
     width: 100%;
     height: calc(100vh / 3);
     border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* fine box */
 
