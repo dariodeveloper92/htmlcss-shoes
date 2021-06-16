@@ -11,12 +11,6 @@ body {
     color: yellow;
     background-color: black;
 }
-
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
 /* fine common */
 
 /* container */
@@ -43,14 +37,14 @@ body {
 
 /* nav */
 nav li {
-    float: left;
+    display: inline-block;
     list-style: none;
     text-transform: uppercase;
     padding-right: 10px;
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     width: 40px;
     height: 40px;
     margin-top: 10px ;
