@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+body {
+    font-family: rubik momo;
+    color: yellow;
+}
+/* fine common */
+
+/* container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .red {
+    background-color: red;
+}
+
+.container .green {
+    background-color: green;
+}
+
+.container .yellow {
+    background-color: yellow;
+}
+/* fine container */
+
+/* box */
+.box {
+    width: 100%;
+    height: calc(100vh / 3);
+    border: 1px solid black;
+}
+/* fine box */
+
+/* img */
+#superga {
+    background-image: url(../img/01.png);
+}
+
+#tommy {
+    background-image: url(../img/02.png);
+}
+
+#converse {
+    background-image: url(../img/03.png);
+}
+/* fine img */
