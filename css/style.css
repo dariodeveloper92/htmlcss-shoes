@@ -7,7 +7,6 @@
 /* common */
 body {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 10px;
     color: yellow;
     background-color: black;
 }
@@ -32,8 +31,6 @@ body {
     background-color: yellow;
 }
 /* fine container */
-
-
 
 /* nav */
 nav {
@@ -79,8 +76,9 @@ nav li a {
 
 .box h2 {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 /* fine box */
@@ -92,7 +90,7 @@ nav li a {
     background-size: 50%;
 }
 
-#tommy {
+#tommy { 
     background-image: url(../img/02.png);
     background-position:center;
     background-size: 50%;
@@ -101,7 +99,7 @@ nav li a {
 #converse {
     background-image: url(../img/03.png);
     background-position:center;
-    background-size: 50%;
+    background-size: 50%; 
 }
 /* fine img */
 
@@ -111,7 +109,9 @@ nav li a {
 }
 /* fine text-green */
 
+/* scroll */
 html {
     scroll-behavior: smooth;
 }
+/* fine scroll */
 
